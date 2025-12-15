@@ -2,6 +2,8 @@ const API = 'https://fakestoreapi.com/products'
 
 export async function initProducts() {
 	const root = document.getElementById('products')
+	if (!root) return
+
 	root.innerHTML = 'Loading...'
 
 	const res = await fetch(API)
@@ -44,9 +46,13 @@ function escapeHTML(s) {
 	return String(s).replace(
 		/[&<>"']/g,
 		c =>
-			({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[
-				c
-			])
+			({
+				'&': '&amp;',
+				'<': '&lt;',
+				'>': '&gt;',
+				'"': '&quot;',
+				"'": '&#039;',
+			}[c])
 	)
 }
 function escapeAttr(s) {

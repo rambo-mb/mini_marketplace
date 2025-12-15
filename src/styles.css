@@ -18,12 +18,12 @@ body {
 .header {
 	margin-bottom: 12px;
 }
+
 .grid {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	gap: 16px;
 }
-
 @media (max-width: 820px) {
 	.grid {
 		grid-template-columns: 1fr;
@@ -118,6 +118,7 @@ body {
 	display: grid;
 	gap: 10px;
 }
+
 .cartItem {
 	border: 1px solid #eee;
 	border-radius: 12px;

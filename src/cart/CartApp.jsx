@@ -45,7 +45,7 @@ export default function CartApp() {
 }
 
 function addOrInc(prev, p) {
-	const idx = prev.findIndex(x => x.id === p.id)
-	if (idx === -1) return [...prev, { ...p, qty: 1 }]
+	const found = prev.find(x => x.id === p.id)
+	if (!found) return [...prev, { ...p, qty: 1 }]
 	return prev.map(x => (x.id === p.id ? { ...x, qty: x.qty + 1 } : x))
 }
