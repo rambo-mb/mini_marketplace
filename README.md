@@ -20,7 +20,7 @@ Izzatjon Qodirov
 
 ## Demo havolasi (agar bo‘lsa):
 
-- (Netlify/Vercel link)
+- [(Netlify/Vercel link)](https://mini-marketplace-rambo.netlify.app/)
 
 ## Ishga tushirish
 
