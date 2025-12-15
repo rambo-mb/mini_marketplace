@@ -15,8 +15,8 @@ Izzatjon Qodirov
 
 ## Interfeys skrinshotlari:
 
-- ![alt text](image.png)
-- Mobile: (rasm)
+- Desktop: ![alt text](image.png)
+- Mobile: ![alt text](image-1.png)
 
 ## Demo havolasi (agar bo‘lsa):
 
